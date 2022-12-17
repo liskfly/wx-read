@@ -1,0 +1,53 @@
+{
+  "pages": [
+    "pages/loginpage/loginPage",
+    "pages/bookcity/BookCity",
+    "pages/bookbrowse/bookBrowse",
+    "pages/bookbrowse/bookDetails",
+    "pages/bookSearch/bookSearch",
+    "pages/homepage/bookshelf",
+    "pages/loginpage/userPage",
+    "pages/loginpage/bookCollection",
+    "pages/bookcity/bookRanking"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "borderStyle": "black",
+    "backgroundColor": "#F7F7F7",
+    "color": "#787878",
+    "selectedColor": "#474747",
+    "list": [
+      {
+        "iconPath": "static/Ufa.png",
+        "selectedIconPath": "static/mfn.png",
+        "text": "书架",
+        "pagePath": "pages/homepage/bookshelf"
+      },
+      {
+        "iconPath": "static/s__.png",
+        "selectedIconPath": "static/tAT.png",
+        "text": "书城",
+        "pagePath": "pages/bookcity/BookCity"
+      },
+      {
+        "iconPath": "static/SHK.png",
+        "selectedIconPath": "static/svO.png",
+        "text": "登录",
+        "pagePath": "pages/loginpage/userPage"
+      }
+    ]
+  },
+  "usingComponents": {
+    "van-tab": "/wxcomponents/vant/tabs/index",
+    "van-tabs": "/wxcomponents/vant/tab/index",
+    "van-sticky": "/wxcomponents/vant/sticky/index",
+    "van-popup": "/wxcomponents/vant/popup/index",
+    "van-search": "/wxcomponents/vant/search/index"
+  }
+}

@@ -1,0 +1,104 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/loginpage/loginPage",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/bookcity/BookCity",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/bookbrowse/bookBrowse",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/bookbrowse/bookDetails",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/bookSearch/bookSearch",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/homepage/bookshelf",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/loginpage/userPage",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/loginpage/bookCollection",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/bookcity/bookRanking",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		}
+	],
+	"tabBar": {
+		"borderStyle": "black",
+		"backgroundColor": "#F7F7F7",
+		"color": "#787878",
+		"selectedColor": "#474747",
+		"list": [{
+				"iconPath": "static/Ufa.png",
+				"selectedIconPath": "static/mfn.png",
+				"text": "书架",
+				"pagePath": "pages/homepage/bookshelf"
+			},
+			{
+				"iconPath": "static/s__.png",
+				"selectedIconPath": "static/tAT.png",
+				"text": "书城",
+				"pagePath": "pages/bookcity/BookCity"
+			},
+			{
+				"iconPath": "static/SHK.png",
+				"selectedIconPath": "static/svO.png",
+				"text": "登录",
+				"pagePath": "pages/loginpage/userPage"
+				
+			}
+		]
+	},
+	"easycom": {
+		"autoscan": true,
+		"custom": {
+			"^van-(.*)": "@/wxcomponents/vant/$1/index.js"
+		}
+	},
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8",
+		"usingComponents": {
+			"van-tab": "/wxcomponents/vant/tabs/index",
+			"van-tabs": "/wxcomponents/vant/tab/index",
+			"van-sticky":"/wxcomponents/vant/sticky/index",
+			"van-popup":"/wxcomponents/vant/popup/index",
+			"van-search":"/wxcomponents/vant/search/index"
+		}
+	},
+	"uniIdRouter": {}
+}
